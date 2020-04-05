@@ -3,27 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8F5FAEFECB5F1916B55A9B9 /* Pods_VAAPNSWithFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBB24F1B7682C378FFAFBD7 /* Pods_VAAPNSWithFirebase.framework */; };
 		D61400F1243A0EFB00FEA83C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61400F0243A0EFB00FEA83C /* AppDelegate.swift */; };
-		D61400F3243A0EFB00FEA83C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61400F2243A0EFB00FEA83C /* SceneDelegate.swift */; };
 		D61400F5243A0EFB00FEA83C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61400F4243A0EFB00FEA83C /* ViewController.swift */; };
 		D61400F8243A0EFB00FEA83C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61400F6243A0EFB00FEA83C /* Main.storyboard */; };
 		D61400FA243A0EFD00FEA83C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61400F9243A0EFD00FEA83C /* Assets.xcassets */; };
 		D61400FD243A0EFD00FEA83C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61400FB243A0EFD00FEA83C /* LaunchScreen.storyboard */; };
+		D6140105243A173500FEA83C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6140104243A173500FEA83C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47DE6EF5E854B8AA9B0936A7 /* Pods-VAAPNSWithFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VAAPNSWithFirebase.release.xcconfig"; path = "Target Support Files/Pods-VAAPNSWithFirebase/Pods-VAAPNSWithFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		8A78C65CAB9015D0198FAB6C /* Pods-VAAPNSWithFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VAAPNSWithFirebase.debug.xcconfig"; path = "Target Support Files/Pods-VAAPNSWithFirebase/Pods-VAAPNSWithFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		CFBB24F1B7682C378FFAFBD7 /* Pods_VAAPNSWithFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VAAPNSWithFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D61400ED243A0EFB00FEA83C /* VAAPNSWithFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VAAPNSWithFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D61400F0243A0EFB00FEA83C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D61400F2243A0EFB00FEA83C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D61400F4243A0EFB00FEA83C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D61400F7243A0EFB00FEA83C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D61400F9243A0EFD00FEA83C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D61400FC243A0EFD00FEA83C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D61400FE243A0EFD00FEA83C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6140104243A173500FEA83C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D691BF44243A1FCD00D85A65 /* VAAPNSWithFirebase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VAAPNSWithFirebase.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +36,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8F5FAEFECB5F1916B55A9B9 /* Pods_VAAPNSWithFirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2226AE108B9B592F8A198CA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A78C65CAB9015D0198FAB6C /* Pods-VAAPNSWithFirebase.debug.xcconfig */,
+				47DE6EF5E854B8AA9B0936A7 /* Pods-VAAPNSWithFirebase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		72F1CC5F442E5ED4E3137EA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB24F1B7682C378FFAFBD7 /* Pods_VAAPNSWithFirebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D61400E4243A0EFB00FEA83C = {
 			isa = PBXGroup;
 			children = (
 				D61400EF243A0EFB00FEA83C /* VAAPNSWithFirebase */,
 				D61400EE243A0EFB00FEA83C /* Products */,
+				2226AE108B9B592F8A198CA5 /* Pods */,
+				72F1CC5F442E5ED4E3137EA1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +81,14 @@
 		D61400EF243A0EFB00FEA83C /* VAAPNSWithFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				D691BF44243A1FCD00D85A65 /* VAAPNSWithFirebase.entitlements */,
 				D61400F0243A0EFB00FEA83C /* AppDelegate.swift */,
-				D61400F2243A0EFB00FEA83C /* SceneDelegate.swift */,
 				D61400F4243A0EFB00FEA83C /* ViewController.swift */,
 				D61400F6243A0EFB00FEA83C /* Main.storyboard */,
 				D61400F9243A0EFD00FEA83C /* Assets.xcassets */,
 				D61400FB243A0EFD00FEA83C /* LaunchScreen.storyboard */,
 				D61400FE243A0EFD00FEA83C /* Info.plist */,
+				D6140104243A173500FEA83C /* GoogleService-Info.plist */,
 			);
 			path = VAAPNSWithFirebase;
 			sourceTree = "<group>";
@@ -74,9 +100,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6140101243A0EFD00FEA83C /* Build configuration list for PBXNativeTarget "VAAPNSWithFirebase" */;
 			buildPhases = (
+				184689664035D81DB9F4F0BE /* [CP] Check Pods Manifest.lock */,
 				D61400E9243A0EFB00FEA83C /* Sources */,
 				D61400EA243A0EFB00FEA83C /* Frameworks */,
 				D61400EB243A0EFB00FEA83C /* Resources */,
+				7E245DEE5BE5A7F69A573D01 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +155,54 @@
 			files = (
 				D61400FD243A0EFD00FEA83C /* LaunchScreen.storyboard in Resources */,
 				D61400FA243A0EFD00FEA83C /* Assets.xcassets in Resources */,
+				D6140105243A173500FEA83C /* GoogleService-Info.plist in Resources */,
 				D61400F8243A0EFB00FEA83C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		184689664035D81DB9F4F0BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VAAPNSWithFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E245DEE5BE5A7F69A573D01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VAAPNSWithFirebase/Pods-VAAPNSWithFirebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VAAPNSWithFirebase/Pods-VAAPNSWithFirebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VAAPNSWithFirebase/Pods-VAAPNSWithFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D61400E9243A0EFB00FEA83C /* Sources */ = {
@@ -140,7 +211,6 @@
 			files = (
 				D61400F5243A0EFB00FEA83C /* ViewController.swift in Sources */,
 				D61400F1243A0EFB00FEA83C /* AppDelegate.swift in Sources */,
-				D61400F3243A0EFB00FEA83C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +352,10 @@
 		};
 		D6140102243A0EFD00FEA83C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A78C65CAB9015D0198FAB6C /* Pods-VAAPNSWithFirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VAAPNSWithFirebase/VAAPNSWithFirebase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B6LN4XWA2V;
 				INFOPLIST_FILE = VAAPNSWithFirebase/Info.plist;
@@ -300,8 +372,10 @@
 		};
 		D6140103243A0EFD00FEA83C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47DE6EF5E854B8AA9B0936A7 /* Pods-VAAPNSWithFirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VAAPNSWithFirebase/VAAPNSWithFirebase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B6LN4XWA2V;
 				INFOPLIST_FILE = VAAPNSWithFirebase/Info.plist;
