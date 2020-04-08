@@ -235,7 +235,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ ${CONFIGURATION} = \"FCMSwizzlingDisabled\" ]; then\n/usr/libexec/PlistBuddy -c \"Set :FirebaseAppDelegateProxyEnabled NO\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\nfi\n";
+			shellScript = "${SCRIPT_PATH_TO_MODIFY_FCM_SWIZZLING_FLAG}\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -402,6 +402,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.va.VAAPNSWithFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCRIPT_PATH_TO_MODIFY_FCM_SWIZZLING_FLAG = "${SRCROOT}/VAAPNSWithFirebase/build-phase/Script.sh";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -422,6 +423,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.va.VAAPNSWithFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCRIPT_PATH_TO_MODIFY_FCM_SWIZZLING_FLAG = "${SRCROOT}/VAAPNSWithFirebase/build-phase/Script.sh";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -503,6 +505,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.va.VAAPNSWithFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCRIPT_PATH_TO_MODIFY_FCM_SWIZZLING_FLAG = "${SRCROOT}/VAAPNSWithFirebase/build-phase/Script.sh";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -86,7 +86,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         completionHandler(UIBackgroundFetchResult.newData)
     }
 
-    //#if FCMSwizzlingDisabled
 //    func application(_ application: UIApplication,
 //                     didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
 //
@@ -99,7 +98,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //                     didFailToRegisterForRemoteNotificationsWithError error: Error) {
 //        print("error : \(error.localizedDescription)")
 //    }
-    //#endif
+
 }
 
 @available(iOS 10, *)
