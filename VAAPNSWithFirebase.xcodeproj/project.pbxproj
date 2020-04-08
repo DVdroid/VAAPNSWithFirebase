@@ -14,6 +14,7 @@
 		D61400FA243A0EFD00FEA83C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61400F9243A0EFD00FEA83C /* Assets.xcassets */; };
 		D61400FD243A0EFD00FEA83C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61400FB243A0EFD00FEA83C /* LaunchScreen.storyboard */; };
 		D6140105243A173500FEA83C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6140104243A173500FEA83C /* GoogleService-Info.plist */; };
+		D691BF57243E137400D85A65 /* build-phase in Resources */ = {isa = PBXBuildFile; fileRef = D691BF56243E137400D85A65 /* build-phase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		D691BF51243DDCA300D85A65 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		D691BF52243DDCCF00D85A65 /* FCMNOSwizzling.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FCMNOSwizzling.xcconfig; sourceTree = "<group>"; };
 		D691BF53243DDCE500D85A65 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		D691BF56243E137400D85A65 /* build-phase */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "build-phase"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				D61400F6243A0EFB00FEA83C /* Main.storyboard */,
 				D61400F9243A0EFD00FEA83C /* Assets.xcassets */,
 				D61400FB243A0EFD00FEA83C /* LaunchScreen.storyboard */,
+				D691BF56243E137400D85A65 /* build-phase */,
 				D691BF50243DDBF300D85A65 /* Config */,
 				D61400FE243A0EFD00FEA83C /* Info.plist */,
 				D6140104243A173500FEA83C /* GoogleService-Info.plist */,
@@ -173,6 +176,7 @@
 				D61400FD243A0EFD00FEA83C /* LaunchScreen.storyboard in Resources */,
 				D61400FA243A0EFD00FEA83C /* Assets.xcassets in Resources */,
 				D6140105243A173500FEA83C /* GoogleService-Info.plist in Resources */,
+				D691BF57243E137400D85A65 /* build-phase in Resources */,
 				D61400F8243A0EFB00FEA83C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
